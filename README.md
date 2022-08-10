@@ -7,7 +7,7 @@ A Tutorial showing how to program an ATTiny13A: https://www.instructables.com/Up
 
 (The Circuit Diagram is not made virtually, and it is pretty complicated, so I'll take some time to digitalize it)
 
-Materials Required:
+# Materials Required:
 
 1. 1x     CD4017 Decade Counter
 2. 80x    LED's of any color
