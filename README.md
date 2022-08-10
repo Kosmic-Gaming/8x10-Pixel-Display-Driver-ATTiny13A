@@ -17,3 +17,17 @@ Materials Required:
 6. 3x     7HC08 Quad 2 Input AND Gates
 7. Any Power Supply from 5V to 9V
 8. A LOT of Wires
+
+# All Library Syntaxes:
+
+  Init ();                           -> Initializes Digital Pins - D0 as Serial Data; D1 as Ground Reference and D2 as Address Line.
+  
+  saveToROM (EEPROM Address);       -> Writes Software Bytes from SRAM to EEPROM starting from the mentioned address.
+  
+  loadFromROM (EEPROM Address);     -> Reads 10 Bytes from EEPROM starting from the mentioned address and loads it to SRAM.
+  
+  changeAddress (New Address);      -> Change VRAM Pointer Address to New Address.
+  
+  dumpRAMtoVRAM ();                 -> Loads Software Bytes from SRAM to VRAM.
+  
+  dumpROMtoVRAM (EEPROM Address);   -> Reads 10 Bytes from EEPROM starting from the mentioned address and loads them to VRAM Directly.  
