@@ -5,6 +5,7 @@ Download the ATTiny13A Board and Install it in the Arduino IDE: https://mcudude.
 
 A Tutorial showing how to program an ATTiny13A: https://www.instructables.com/Updated-Guide-on-How-to-Program-an-Attiny13-or-13a/
 
+
 (The Circuit Diagram is not made virtually, and it is pretty complicated, so I'll take some time to digitalize it)
 
 # Materials Required:
@@ -20,14 +21,16 @@ A Tutorial showing how to program an ATTiny13A: https://www.instructables.com/Up
 
 # All Library Syntaxes:
 
-  Init ();                           -> Initializes Digital Pins - D0 as Serial Data; D1 as Ground Reference and D2 as Address Line.
+* The Software uses about 1188 Bytes if you include all of the instructions in one sketch but I'm 99.99% sure you won't need all of them :)
+
+ 1. Init ();                           -> Initializes Digital Pins - D0 as Serial Data; D1 as Ground Reference and D2 as Address Line.
   
-  saveToROM (EEPROM Address);       -> Writes Software Bytes from SRAM to EEPROM starting from the mentioned address.
+ 2. saveToROM (EEPROM Address);       -> Writes Software Bytes from SRAM to EEPROM starting from the mentioned address.
   
-  loadFromROM (EEPROM Address);     -> Reads 10 Bytes from EEPROM starting from the mentioned address and loads it to SRAM.
+ 3. loadFromROM (EEPROM Address);     -> Reads 10 Bytes from EEPROM starting from the mentioned address and loads it to SRAM.
   
-  changeAddress (New Address);      -> Change VRAM Pointer Address to New Address.
+ 4. changeAddress (New Address);      -> Change VRAM Pointer Address to New Address.
   
-  dumpRAMtoVRAM ();                 -> Loads Software Bytes from SRAM to VRAM.
+ 5. dumpRAMtoVRAM ();                 -> Loads Software Bytes from SRAM to VRAM.
   
-  dumpROMtoVRAM (EEPROM Address);   -> Reads 10 Bytes from EEPROM starting from the mentioned address and loads them to VRAM Directly.  
+ 6. dumpROMtoVRAM (EEPROM Address);   -> Reads 10 Bytes from EEPROM starting from the mentioned address and loads them to VRAM Directly.  
