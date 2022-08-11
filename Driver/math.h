@@ -10,6 +10,14 @@ void dumpRAMtoVRAM () {
   byte count = 0;
   byte num = 0;
   while (count < 9) {
+     boolean b1 = false;
+boolean b2 = false;
+boolean b3 = false;
+boolean b4 = false;
+boolean b5 = false;
+boolean b6 = false;
+boolean b7 = false;
+boolean b8 = false;
     byte tx = 0;
     byte AP = 0;
     if (count == 0) {
