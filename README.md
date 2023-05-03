@@ -19,7 +19,7 @@ Circuit Diagram: https://i.imgur.com/OD0rmjk.jpg
 7. Any Power Supply from 5V to 9V
 8. A LOT of Wires
 
-# All Library Syntaxes:
+# All Library Literals:
 
 * The Software uses about 1188 Bytes if you include all of the instructions in one sketch but I'm 99.99% sure you won't need all of them :)
 
