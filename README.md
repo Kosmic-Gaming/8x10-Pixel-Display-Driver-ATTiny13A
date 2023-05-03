@@ -6,7 +6,7 @@ Download the ATTiny13A Board and Install it in the Arduino IDE: https://mcudude.
 A Tutorial showing how to program an ATTiny13A: https://www.instructables.com/Updated-Guide-on-How-to-Program-an-Attiny13-or-13a/
 
 
-(The Circuit Diagram is not made virtually, and it is pretty complicated, so I'll take some time to digitalize it)
+Circuit Diagram: https://i.imgur.com/OD0rmjk.jpg
 
 # Materials Required:
 
